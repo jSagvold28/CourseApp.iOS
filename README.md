@@ -9,3 +9,5 @@ Using SwiftUI, feel free to add this to your own Xcode project
 
 
 This has updates b/c i am working on it
+
+The app may not be functal, because I am learning to be an iOS dev
