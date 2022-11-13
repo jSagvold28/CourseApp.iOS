@@ -1,0 +1,43 @@
+//
+//  Guidence.swift
+//  CourseApp
+//
+//  Created by Jayce Sagvold on 11/13/22.
+//
+
+import SwiftUI
+
+struct Guidence: View {
+    var body: some View {
+            List {
+                Text("Why Courstify?")
+                    .bold()
+                    .font(.system(size: 25))
+                    .padding(.bottom, 15.25)
+                Text("Our courses are unike, they are taught by teachers that are expreinced in what the are teaching")
+                    .padding(.bottom, 15.25)
+                Text("How to get our subscription")
+                    .padding(.bottom, 15.25)
+                    .bold()
+                    .font(.title3)
+                Text("Press on the subscription in the tab bar below. Thanks for buying me a coffee :)")
+                    .padding(.bottom, 15.25)
+                Text("Billing")
+                    .bold()
+                    .font(.title3)
+                Text("Our subscription is a small fee of 4.99 (cheaper than Neftlix!) You get unlimited courses and help from our expert teachers in their unique feild.")
+                    .padding(.bottom, 15.25)
+                Text("If you buy our subscription thanks ;)!!!")
+                    .padding(.bottom, 1.2)
+                    .font(.subheadline)
+
+            }
+        }
+        
+    }
+
+struct Guidence_Previews: PreviewProvider {
+    static var previews: some View {
+        Guidence()
+    }
+}
