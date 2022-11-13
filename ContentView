@@ -8,6 +8,9 @@ struct ContentView: View {
         VStack {
             
             List {
+                Text("Avabile Courses")
+                    .bold()
+                    .font(.title)
                 Image("mt-8")
                     .resizable()
                     .frame(height: 155.5)
