@@ -24,8 +24,7 @@ struct AboutApp: View {
             Text("🧑🏻‍💻 About the Developer")
                 .font(.title2)
                 .bold()
-            Text("The developer is a new developer, developing in SwiftUI. I used to make games on Roblox, then relized that there was no feature with Game Development for me. So, this is why I am making this appication right now!")
-                .font(.system(size: 18.3))
+            Text("            Text("I am a Indie Developer, developing in SwiftUI. I used to make games for Roblox, then stopped liking it, and there was not feature in Game Dev for me. So, this is why I am making
                 .padding(.bottom, 18)
             
             Text("What is this app for?")
