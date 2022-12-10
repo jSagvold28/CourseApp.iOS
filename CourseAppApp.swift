@@ -16,7 +16,7 @@ struct MyApp: App {
                     .tabItem {
                         Label("Courses", systemImage: "book")
                     }
-                SettingsView()
+                ProfileView()
                     .tabItem {
                         Label("Profile", systemImage: "person.fill")
                         
