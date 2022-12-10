@@ -39,6 +39,7 @@ struct ProfileView: View {
                     Text("Privacy Policy")
                 }
             }
+            .navigationTitle("Profile Settings")
         }
     }
     
