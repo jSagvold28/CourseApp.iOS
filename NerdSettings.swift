@@ -9,6 +9,8 @@ import SwiftUI
 
 struct NerdSettings: View {
     
+    @State private var EnhancedPrivacyProtection: Bool = false
+    
     @State private var KeepPasswordsOnDevice: Bool = false
     
     @State private var KeepPasswordsInServer: Bool = true
@@ -29,7 +31,7 @@ struct NerdSettings: View {
                     .font(.title2)
                 
                 
-                Toggle(isOn: $KeepPasswordsOnDevice) {
+                Toggle(isOn: $EnhancedPrivacyProtection) {
                     
                     Text("Enhanced privacy protection")
                     
