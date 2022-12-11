@@ -21,7 +21,7 @@ struct ProfileElements: View {
                     .frame(width: 150, height: 150)
                     .padding(.bottom, 15)
                     .padding(.top, 35)
-                    .shadow(radius: 25)
+                    .shadow(radius: 42)
                 
                 Text("Username: j.Sagvold28")
                     .font(.title3)
@@ -31,6 +31,7 @@ struct ProfileElements: View {
                     .font(.callout)
                     .foregroundColor(.gray)
                     .padding(.bottom, 50)
+                    .shadow(radius: 15)
                 
                 
                 Text("Purchased Courses:")
@@ -42,24 +43,28 @@ struct ProfileElements: View {
                         .frame(width: 400, height: 175)
                         .cornerRadius(30)
                         .padding(.bottom, 15)
+                        .shadow(radius: 15)
                     
                     Image("mt-5")
                         .resizable()
                         .frame(width: 400, height: 175)
                         .cornerRadius(30)
                         .padding(.bottom, 15)
+                        .shadow(radius: 15)
                     
                     Image("mt-8")
                         .resizable()
                         .frame(width: 400, height: 175)
                         .cornerRadius(30)
                         .padding(.bottom, 15)
+                        .shadow(radius: 15)
                     
                     Image("mt-2")
                         .resizable()
                         .frame(width: 400, height: 175)
                         .cornerRadius(30)
                         .padding(.bottom, 15)
+                        .shadow(radius: 15)
                     
                     
                 }
