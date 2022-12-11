@@ -38,6 +38,24 @@ struct ProfileView: View {
                 } label: {
                     Text("Privacy Policy")
                 }
+                
+                NavigationLink {
+                    AveragePersonSettings()
+                } label: {
+                    Text("Settings")
+                }
+                
+                NavigationLink {
+                    NerdSettings()
+                } label: {
+                    Text("NerdSettings (no offence)")
+                }
+                
+                NavigationLink {
+                    Guidance()
+                } label: {
+                    Text("Guidance")
+                }
             }
             .navigationTitle("Profile Settings")
         }
