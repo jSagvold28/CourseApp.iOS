@@ -22,6 +22,10 @@ struct AveragePersonSettings: View {
 
             List {
                 
+                Text("Basic Settings")
+                    .font(.title2)
+                    .bold()
+                
                 
                 Toggle(isOn: $PrivacyProtection) {
                 
